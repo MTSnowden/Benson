@@ -3,6 +3,8 @@ import Marquee from './components/Marquee'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import About from './components/About'
+import Work from './components/Work'
+import Contact from './components/Contact'
 
 const App = () => {
   return (
@@ -12,6 +14,8 @@ const App = () => {
       <Marquee />
       <Projects />
       <About />
+      <Work />
+      <Contact />
     </main>
   )
 }
